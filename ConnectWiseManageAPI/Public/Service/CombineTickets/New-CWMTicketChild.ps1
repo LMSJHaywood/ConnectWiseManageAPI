@@ -14,7 +14,7 @@ The ID of the parent ticket.
 An array of IDs for the child tickets that will be either bundled or merged with the parent ticket.
 
 .PARAMETER StatusID
-(Only for Merge operation) The status ID for the merged ticket.
+(Only for Merge operation) Mandatory. The status ID for the merged ticket (Must be a Closed Status ID).
 
 .PARAMETER Sort
 (Only for Merge operation) The sort order for the merged ticket.
